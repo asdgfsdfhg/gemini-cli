@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mayo Clinic Cloud Solution - Google Cloud</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #4285f4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mayo Clinic Cloud Solution</h1>
+    <h3>Powered by Google Cloud</h3>
+  </header>
+
+  <section>
+    <h2>Organization</h2>
+    <p><strong>Mayo Clinic</strong> — A leading nonprofit American academic medical center focused on integrated clinical practice, education, and research.</p>
+  </section>
+
+  <section>
+    <h2>Cloud Provider</h2>
+    <p><strong>Google Cloud Platform (GCP)</strong> — Chosen for its scalability, HIPAA compliance, AI/ML capabilities, and healthcare-specific tools like the Cloud Healthcare API.</p>
+  </section>
+
+  <section>
+    <h2>Use Case</h2>
+    <ul>
+      <li>Processing large-scale Electronic Health Records (EHRs)</li>
+      <li>Managing and analyzing medical imaging and genomics data</li>
+      <li>Running AI analytics for clinical and academic research</li>
+      <li>Enabling secure telemedicine and video consultation services</li>
+      <li>Providing collaborative platforms for clinicians and researchers</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Implementation Example</h2>
+    <p><strong>Hybrid Cloud Architecture:</strong></p>
+    <ul>
+      <li><strong>Private Cloud / On-Premise:</strong> Sensitive patient data (PHI) is stored and processed securely on-premise or in a private cloud infrastructure.</li>
+      <li><strong>Public Cloud (Google Cloud):</strong> Research workloads, non-sensitive analytics, and AI/ML models are processed in GCP.</li>
+    </ul>
+    <p>This setup ensures security and scalability while complying with regulatory standards.</p>
+  </section>
+
+  <section>
+    <h2>Risk Mitigation</h2>
+    <ul>
+      <li><strong>Encryption:</strong> Data encrypted in transit and at rest using Google-managed or customer-managed encryption keys (CMEK).</li>
+      <li><strong>IAM Policies:</strong> Role-based access control to ensure least privilege access.</li>
+      <li><strong>Compliance:</strong> Full adherence to HIPAA, GDPR, and other healthcare regulations.</li>
+      <li><strong>Monitoring:</strong> Real-time threat detection and compliance auditing with Google Cloud Security Command Center.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Mayo Clinic – Cloud Architecture Summary</p>
+  </footer>
+
+</body>
+</html>
