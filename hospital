@@ -1,0 +1,11 @@
+Can you provide html code for cloud solution. use these details, For my assignment, you can frame it like this:
+
+Organization: Mayo Clinic
+
+Cloud Provider: Google Cloud
+
+Use Case: Processing large-scale patient data (EHRs, imaging, genomics), AI analytics for research, telemedicine, and collaborative tools.
+
+Implementation Example: Hybrid cloud architecture—sensitive patient data in private cloud/on-premise, research and non-sensitive workloads in Google Cloud public cloud.
+
+Risk Mitigation: Encryption, IAM policies, compliance with HIPAA/GDPR, continuous monitoring with Google Cloud Security Command Center.
